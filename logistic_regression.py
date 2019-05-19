@@ -1,10 +1,9 @@
+import sys
 import random
 import pickle
 import data_loader as dl
-from data_loader import DataIterator
 from math import exp, log
-import sys
-import warnings
+
 
 class LogisticRegression():
 	def __init__(self, 
